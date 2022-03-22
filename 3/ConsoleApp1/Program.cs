@@ -43,7 +43,8 @@ class Program
     {
         do
         {
-            Vasiljev_myGB_Utils.greetingsText("Васильев Михаил", "Задание 3.");            
+            Vasiljev_myGB_Utils.greetingsText("Васильев Михаил", "Задание 3.");
+            Console.WriteLine("Выберите пункт:");
             Console.WriteLine(@"1 - а) Дописать структуру Complex, добавив метод вычитания комплексных чисел. Продемонстрировать работу структуры.
 б) Дописать класс Complex, добавив методы вычитания и произведения чисел. Проверить работу класса.
 в) Добавить диалог с использованием switch демонстрирующий работу класса.");
@@ -51,8 +52,7 @@ class Program
                 Console.WriteLine(@"3 - * Описать класс дробей — рациональных чисел, являющихся отношением двух целых чисел. Предусмотреть методы сложения, вычитания, умножения и деления дробей. Написать программу, демонстрирующую все разработанные элементы класса.
 * Добавить свойства типа int для доступа к числителю и знаменателю;
 *Добавить свойство типа double только на чтение, чтобы получить десятичную дробь числа;
-**Добавить проверку, чтобы знаменатель не равнялся 0.Выбрасывать исключение ArgumentException(Знаменатель не может быть равен 0);
-***Добавить упрощение дробей.");
+**Добавить проверку, чтобы знаменатель не равнялся 0.Выбрасывать исключение ArgumentException(Знаменатель не может быть равен 0);");
             Console.WriteLine("0 - Выход.");
 
 
@@ -143,6 +143,7 @@ class Program
 
                         while (true)
                         {
+
                             Console.BackgroundColor = ConsoleColor.Blue;
                             Console.ForegroundColor = ConsoleColor.Yellow;
                             Console.WriteLine("");
@@ -163,7 +164,6 @@ class Program
                                     into = 0;
                                 }
                                 score = score + into;
-
                                 Console.BackgroundColor = ConsoleColor.Yellow;
                                 Console.ForegroundColor = ConsoleColor.Black;
                                 Console.WriteLine($"Числа: {numbers}");                                

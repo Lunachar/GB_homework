@@ -47,7 +47,7 @@ namespace HomeWork3
             Console.WriteLine("==============================");
             Console.WriteLine($"|       {a}      |");
             Console.WriteLine("==============================");
-            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ResetColor();
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine(c);
