@@ -38,8 +38,7 @@ struct Complex
 
 class Program
 {
-
-    static void Main(string[] args)
+        static void Main(string[] args)
     {
         do
         {
